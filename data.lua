@@ -25,7 +25,7 @@ local stoplight = {
   type = "simple-entity-with-force",
   name = "bottleneck-stoplight",
   flags = {"not-blueprintable", "not-deconstructable", "not-on-map", "placeable-off-grid"},
-  filename = "__Bottleneck__/graphics/white.png",
+  filename = "__Bottleneck2_1__/graphics/white.png",
   icon_size = 64,
   max_health = 100,
   selectable_in_game = false,
@@ -39,7 +39,7 @@ local stoplight = {
   vehicle_impact_sound = nil,
   pictures = {
     {
-      filename = "__Bottleneck__/graphics/off.png",
+      filename = "__Bottleneck2_1__/graphics/off.png",
       priority = "extra-high",
       x = 0,
       y = 0,
@@ -59,17 +59,17 @@ local colors = {
 }
 
 local icons = {
-  none = "__Bottleneck__/graphics/white-flat.png",
-  alert = "__Bottleneck__/graphics/alert-flat.png",
-  cross = "__Bottleneck__/graphics/cross-flat.png",
-  minus = "__Bottleneck__/graphics/minus-flat.png",
-  pause = "__Bottleneck__/graphics/pause-flat.png",
-  stop = "__Bottleneck__/graphics/stop-flat.png",
-  alert3D = "__Bottleneck__/graphics/alert.png",
-  cross3D = "__Bottleneck__/graphics/cross.png",
-  minus3D = "__Bottleneck__/graphics/minus.png",
-  pause3D = "__Bottleneck__/graphics/pause.png",
-  stop3D = "__Bottleneck__/graphics/stop.png"
+  none = "__Bottleneck2_1__/graphics/white-flat.png",
+  alert = "__Bottleneck2_1__/graphics/alert-flat.png",
+  cross = "__Bottleneck2_1__/graphics/cross-flat.png",
+  minus = "__Bottleneck2_1__/graphics/minus-flat.png",
+  pause = "__Bottleneck2_1__/graphics/pause-flat.png",
+  stop = "__Bottleneck2_1__/graphics/stop-flat.png",
+  alert3D = "__Bottleneck2_1__/graphics/alert.png",
+  cross3D = "__Bottleneck2_1__/graphics/cross.png",
+  minus3D = "__Bottleneck2_1__/graphics/minus.png",
+  pause3D = "__Bottleneck2_1__/graphics/pause.png",
+  stop3D = "__Bottleneck2_1__/graphics/stop.png"
 }
 
 for _, color_value in pairs(colors) do
